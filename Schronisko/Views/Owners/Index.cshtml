@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Schronisko.Models.Owner>
+
+@{
+    ViewData["Title"] = "Adopcja";
+}
+
+<h1>Adopcja</h1>
+
+<p>
+    <a asp-action="Create">Dodaj nową adopcję</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OwnerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdoptionTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Animal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OwnerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdoptionTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Animal.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Email)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.OwnerId">Szczegóły</a> |
+                <a asp-action="Delete" asp-route-id="@item.OwnerId">Usuń</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

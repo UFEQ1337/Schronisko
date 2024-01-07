@@ -1,0 +1,23 @@
+﻿@page
+@model ErrorModel
+@{
+    ViewData["Title"] = "Błąd";
+}
+
+<h1 class="text-danger">Błąd.</h1>
+<h2 class="text-danger">Coś poszło nie tak.</h2>
+
+@if (Model.ShowRequestId)
+{
+    <p>
+        <strong>ID odpowiedzi:</strong> <code>@Model.RequestId</code>
+    </p>
+}
+
+<h3>Development Mode</h3>
+<p>
+    Zmień na <strong>Development</strong> aby wyświetlić więcej szczegółów .
+</p>
+<p>
+    <strong>Środowisko developerskie nie powinno być dostępne dla użytkownika.</strong>, as it can result in sensitive information from exceptions being displayed to end users. For local debugging, development environment can be enabled by setting the <strong>ASPNETCORE_ENVIRONMENT</strong> environment variable to <strong>Development</strong>, and restarting the application.
+</p>
