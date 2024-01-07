@@ -3,6 +3,10 @@
 ## O Projekcie
 "Schronisko" to aplikacja webowa stworzona w technologii ASP.NET MVC i .NET 8, przeznaczona do zarządzania schroniskiem dla zwierząt. Aplikacja umożliwia użytkownikom dodawanie schronisk, zwierząt oraz ułatwia proces adopcji.
 
+## Dokumentacja
+
+[Dokumentacja](https://github.com/UFEQ1337/Schronisko/blob/master/Dokumentacja.md)
+
 ## Funkcjonalności
 - **Logowanie użytkowników:** Umożliwia personalizowaną interakcję z aplikacją.
 - **Dodawanie schronisk:** Użytkownicy mogą dodawać schroniska i są automatycznie przypisywani jako ich właściciele.
