@@ -28,13 +28,6 @@ Aplikacja jest zbudowana w oparciu o wzorzec MVC (Model-View-Controller), co umo
 ## Bezpieczeństwo i Uwierzytelnianie
 - Aplikacja zawiera mechanizmy uwierzytelniania i autoryzacji użytkowników.
 
-## Funkcjonalności
-1. **Logowanie**: Użytkownicy mogą logować się do systemu przy użyciu swoich danych uwierzytelniających.
-2. **Dodawanie schroniska**: Umożliwia dodawanie nowych schronisk, gdzie użytkownik jest automatycznie przypisywany jako właściciel schroniska.
-3. **Dodawanie psa**: Pozwala na dodawanie informacji o psach, takich jak imię, wiek, rasa, itp.
-4. **Przypisywanie psa do schroniska**: Umożliwia przypisywanie konkretnego psa do wybranego schroniska.
-5. **Moduł adopcji**: Użytkownicy mogą wybierać psy do adopcji. Po adopcji status psa zmienia się, aby uniemożliwić kolejne adopcje tego samego psa.
-
 ## Scenariusze Użycia
 1. **Logowanie do systemu**
    - Wejdź na stronę logowania.
