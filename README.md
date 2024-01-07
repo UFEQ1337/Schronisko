@@ -30,6 +30,9 @@ Poniżej znajdziesz instrukcje, jak uruchomić projekt lokalnie na swoim kompute
    ```
    dotnet run .\Schronisko.csproj
    ```
+### Diagram
+
+![chrome_PfqAKr3VLL](https://github.com/UFEQ1337/Schronisko/assets/64553202/215145ac-aeb8-4d5a-b52e-8dc1ab23b172)
 
 ## Autorzy 
 - MP - 131508 &amp; AP - 135538
