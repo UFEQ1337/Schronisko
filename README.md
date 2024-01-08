@@ -53,5 +53,8 @@ Aby uruchomić projekt "Schronisko" na podstawie dostępnych informacji, możesz
 
 ![chrome_PfqAKr3VLL](https://github.com/UFEQ1337/Schronisko/assets/64553202/215145ac-aeb8-4d5a-b52e-8dc1ab23b172)
 
+---
+![HwyfpLLZh6g1jCWqvRZ2bK](https://github.com/UFEQ1337/Schronisko/assets/64553202/8fd7db02-cc51-49a4-a877-0d7f9ba9d163)
+
 ## Autorzy 
 - MP - 131508 &amp; AP - 135538
